@@ -29,6 +29,13 @@ const Header = () => {
         >
           الرئيسية
         </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "activePath" : null)}
+          to="/projects"
+          onClick={showNavBar}
+        >
+          مشاريعي
+        </NavLink>
         <div className="small-screen-content">
           <Link to="#" onClick={handlePhoneNumberClick} className="phone-number">+966 50 980 4628</Link>
           <Link to="#" onClick={handleEmailClick}>MyGmail@gmail.com</Link>

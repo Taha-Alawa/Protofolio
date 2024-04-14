@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import EarthCanvas from "../components/Earth";
 import SkillContent from "../components/SkillContent";
-import { motion } from "framer-motion"
+import Myspecialprojects from "../components/Myspecialprojects";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -30,9 +31,11 @@ const Home = () => {
           <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </section>
-      <section className="projects">
-        
-      </section>
+      <h2 style={{ textAlign: "center", color: "#fff" }}>My Projects</h2>
+      <Myspecialprojects />
+      <div className="all-projects">
+        <Link to="/projects" >Show all projects</Link>
+      </div>
     </>
   );
 };

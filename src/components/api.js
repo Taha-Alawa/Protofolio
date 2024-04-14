@@ -48,7 +48,6 @@ import number from "../assets/projects/number.png"
 import numbersorter from "../assets/projects/numbersorter.png"  
 import reactTODO from "../assets/projects/reactTODO.png"
 import reduxblog from "../assets/projects/reduxblog.png"
-import reduxposts from "../assets/projects/reduxposts.png"
 import responsiveApp from "../assets/projects/responsiveApp.png"
 import restaurnat from "../assets/projects/restaurnat.png"
 import shoesStore from "../assets/projects/shoesStore.png"
@@ -133,7 +132,8 @@ const projects = [
   {
     name: "fitness App",
     icon: fitnesApp,
-    link: "https://github.com/Taha-Alawa/fitness.git"
+    link: "https://github.com/Taha-Alawa/fitness.git",
+    special: "yes"
   },
   {
     name: "Javascript Project",
@@ -143,7 +143,8 @@ const projects = [
   {
     name: "kitchens Store",
     icon: kitchensStore,
-    link: "https://kitchensberlin1.web.app/"
+    link: "https://kitchensberlin1.web.app/",
+    special: "yes"
   },
   {
     name: "login Form",
@@ -168,8 +169,88 @@ const projects = [
   {
     name: "Notes app",
     icon: Notes,
-    link: "https://github.com/Taha-Alawa/Notes.git"
-  }
+    link: "https://github.com/Taha-Alawa/Notes.git",
+    special: "yes"
+  },
+  {
+    name: "Telephone Number Validator", 
+    icon: number,
+    link: "https://github.com/Taha-Alawa/Telephone-Number-Validator.git"
+  },
+  {
+    name: "Number Sorter",
+    icon: numbersorter,
+    link: "https://github.com/Taha-Alawa/Number-Sorter.git"
+  },
+  {
+    name: "Todo React App",
+    icon: reactTODO,
+    link: "https://github.com/Taha-Alawa/to-do-list-in-react.git"
+  },
+  {
+    name: "redux blog",
+    icon: reduxblog,
+    link: "https://github.com/Taha-Alawa/advanced-redux-blog-project.git"
+  },
+  {
+    name: "responsive App",
+    icon: responsiveApp,
+    link: "https://github.com/Taha-Alawa/Resposive-design.git"
+  },
+  {
+    name: "restaurnat app",
+    icon: restaurnat,
+    link: "https://restaurant-33241.web.app/",
+    special: "yes"
+  },
+  {
+    name: "Shoes store",
+    icon: shoesStore,
+    link: "https://github.com/Taha-Alawa/shoes-store.git"
+  },
+  {
+    name: "Story App",
+    icon: story,
+    link: "https://github.com/Taha-Alawa/story-project.git" 
+  },
+  {
+    name: "Vanlife App",
+    icon: Vanliife,
+    link: "https://github.com/Taha-Alawa/vanlife.git"
+  },
+  {
+    name: "website with video",
+    icon: videowebsite,
+    link: "https://github.com/Taha-Alawa/website-with-video.git"
+  },
+  {
+    name: "Weather App",
+    icon: weatherApp,
+    link: "https://github.com/Taha-Alawa/weather-app.git"
+  },
 ]
 
-export {technologies, projects};
+const specialProjects = [
+  {
+    name: "fitness App",
+    icon: fitnesApp,
+    link: "https://github.com/Taha-Alawa/fitness.git",
+  },
+  {
+    name: "kitchens Store",
+    icon: kitchensStore,
+    link: "https://kitchensberlin1.web.app/",
+  },
+  {
+    name: "Notes app",
+    icon: Notes,
+    link: "https://github.com/Taha-Alawa/Notes.git",
+  },
+  {
+    name: "restaurnat app",
+    icon: restaurnat,
+    link: "https://restaurant-33241.web.app/",
+  },
+]
+
+export {technologies, projects, specialProjects};
