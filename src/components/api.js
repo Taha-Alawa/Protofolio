@@ -56,10 +56,10 @@ const technologies = [
     name: "Firebase",
     icon: firebase
   },
-  {
-    name: "Redux",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux",
+  //   icon: redux,
+  // },
   {
     name: "BootStrap",
     icon: bootstrap,
