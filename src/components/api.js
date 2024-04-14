@@ -35,6 +35,28 @@ import resposive from "../assets/images/responsive-design.png"
 import typing from "../assets/images/typing.png"
 import bootstrap from "../assets/images/bootstrap.png"
 
+import calculator from "../assets/projects/calculator.png"
+import fitnesApp from "../assets/projects/fitnesApp.png"
+import javascriptproject from "../assets/projects/javascriptproject.png"
+import kitchensStore from "../assets/projects/kitchensStore.png"
+import loginForm from "../assets/projects/loginForm.png"
+import memeGenerator from "../assets/projects/memeGenerator.png"
+import moon from "../assets/projects/moon.png"
+import musicApp from "../assets/projects/musicApp.png"
+import Notes from "../assets/projects/Notes.png"
+import number from "../assets/projects/number.png"
+import numbersorter from "../assets/projects/numbersorter.png"  
+import reactTODO from "../assets/projects/reactTODO.png"
+import reduxblog from "../assets/projects/reduxblog.png"
+import reduxposts from "../assets/projects/reduxposts.png"
+import responsiveApp from "../assets/projects/responsiveApp.png"
+import restaurnat from "../assets/projects/restaurnat.png"
+import shoesStore from "../assets/projects/shoesStore.png"
+import story from "../assets/projects/story.png"
+import Vanliife from "../assets/projects/Vanliife.png"
+import videowebsite from "../assets/projects/videowebsite.png"
+import weatherApp from "../assets/projects/weatherApp.png"
+
 const technologies = [
   {
     name: "HTML 5",
@@ -102,4 +124,52 @@ const technologies = [
   },
 ];
 
-export {technologies};
+const projects = [
+  {
+    name: "Calculator React.js App",
+    icon: calculator,
+    link: "https://github.com/Taha-Alawa/calculator.git"
+  },
+  {
+    name: "fitness App",
+    icon: fitnesApp,
+    link: "https://github.com/Taha-Alawa/fitness.git"
+  },
+  {
+    name: "Javascript Project",
+    icon: javascriptproject,
+    link: "https://github.com/Taha-Alawa/learning-js.git"
+  },
+  {
+    name: "kitchens Store",
+    icon: kitchensStore,
+    link: "https://kitchensberlin1.web.app/"
+  },
+  {
+    name: "login Form",
+    icon: loginForm,
+    link: "https://github.com/Taha-Alawa/login-form.git"
+  },
+  {
+    name: "meme Generator",
+    icon: memeGenerator,
+    link: "https://github.com/Taha-Alawa/meme-Genrator.git"
+  },
+  {
+    name: "moon images app",
+    icon: moon,
+    link: "https://github.com/Taha-Alawa/Moon.git"
+  },
+  {
+    name: "music App",
+    icon: musicApp,
+    link: "https://github.com/Taha-Alawa/music-project.git"
+  },
+  {
+    name: "Notes app",
+    icon: Notes,
+    link: "https://github.com/Taha-Alawa/Notes.git"
+  }
+]
+
+export {technologies, projects};
