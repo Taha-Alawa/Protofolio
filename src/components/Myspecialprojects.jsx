@@ -3,7 +3,7 @@ import { specialProjects } from "../components/api"
 
 export default function Myspecialprojects() {
   return (
-    <section className="projects-container" style={{ width: "80%" }}>
+    <section className="sprojects-container" style={{ width: "80%" }}>
     {specialProjects.map((element) => (
       <motion.div 
         style={{ width: "46%", margin: "10px 0" }}

@@ -16,7 +16,9 @@ const Home = () => {
             reiciendis aliquid repudiandae laboriosam unde accusantium
             distinctio ex adipisci.
           </p>
-          <button>about me</button>
+          <div className="all-projects">
+          <Link to="/about">about me</Link>
+          </div>
         </div>
       </section>
       <section className="skills">
