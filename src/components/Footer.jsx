@@ -15,7 +15,7 @@ export default function Footer() {
             className={({ isActive }) => (isActive ? "activePath" : null)}
             to="/"
           >
-            الرئيسية
+            Home
           </NavLink>
         </li>
         <li>
@@ -23,15 +23,7 @@ export default function Footer() {
             className={({ isActive }) => (isActive ? "activePath" : null)}
             to="/projects"
           >
-            مشاريعي
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) => (isActive ? "activePath" : null)}
-            to="/about"
-          >
-            من انا؟
+            Projects
           </NavLink>
         </li>
       </ul>

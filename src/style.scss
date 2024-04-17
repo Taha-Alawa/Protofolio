@@ -9,6 +9,12 @@ body {
   position: relative;
 }
 
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 28px;
+}
+
 /* header */
 header {
   background: #0c1535a3;
@@ -30,7 +36,7 @@ header {
     display: flex;
     width: 390px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     a {
       position: relative;
@@ -98,6 +104,10 @@ header {
     background: #0c1535a3;
     padding: 13px;
     text-align: center;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .earth {
@@ -197,7 +207,7 @@ header {
 
   div {
     background: #66729ea3;
-    border: 3px solid #EA6D27;
+    border: 3px solid #0d1158;
     width: 60%;
     padding: 15px;
     border-radius: 11px;

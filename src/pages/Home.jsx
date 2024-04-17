@@ -10,23 +10,20 @@ const Home = () => {
       <section className="hero">
         <EarthCanvas />
         <div className="hero-content">
-          <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+          <h2>Hi I'm Taha, Front-end developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-            reiciendis aliquid repudiandae laboriosam unde accusantium
-            distinctio ex adipisci.
+          A lover of learning, I create websites
+          that reflect my passion for learning
+          and technical development
           </p>
-          <div className="all-projects">
-          <Link to="/about">about me</Link>
-          </div>
         </div>
       </section>
       <section className="skills">
-        <h2>my skills</h2>
+        <h2>My Skills</h2>
         <SkillContent />
       </section>
       <section className="experince">
-        <h2>my experince</h2>
+        <h2>My Experince</h2>
         <div>
           <h3 className="name">FreeLance Front-end developer</h3>
           <h3 className="time">October 2023 - now</h3>
