@@ -1,9 +1,11 @@
 import { motion } from "framer-motion"
 import { projects } from "../components/api"
+import StarsCanvas from "../components/Stars";
 
 export default function MyProjects() {
   return (
     <>
+      <StarsCanvas />
       <section className="projects-container">
       {projects.map((element) => (
         <motion.div

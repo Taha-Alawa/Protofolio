@@ -3,10 +3,12 @@ import EarthCanvas from "../components/Earth";
 import SkillContent from "../components/SkillContent";
 import Myspecialprojects from "../components/Myspecialprojects";
 import { Link } from "react-router-dom";
+import StarsCanvas from "../components/Stars";
 
 const Home = () => {
   return (
     <>
+    <StarsCanvas />
       <section className="hero">
         <EarthCanvas />
         <div className="hero-content">

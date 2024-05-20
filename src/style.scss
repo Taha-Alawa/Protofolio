@@ -3,7 +3,7 @@
 }
 
 body {
-  height: 3400px;
+  height: 100%;
   background: #010412;
   margin: 0;
   position: relative;
@@ -226,7 +226,6 @@ header {
 .all-projects {
   margin: 0 auto 15px;
   text-align: center;
-  
 
   a {
     color: #fff;
@@ -248,7 +247,7 @@ header {
 // projects page
 .projects-container, .sprojects-container {
   width: 80%;
-  margin: 20px auto 720px;
+  margin: 20px auto;
   align-items: center;
   justify-content: space-around;
   display: flex;
@@ -289,7 +288,7 @@ header {
 
 footer {
   background: #0c1535a3;
-  margin-top: 360px;
+  margin-top: 60px;
   height: 320px;
   z-index: 20;
   display: flex;
@@ -493,7 +492,7 @@ footer {
 
     div{
       width: 46%;
-      margin: 38px 0;
+      margin: 15px 0;
 
       h3 {
         margin: 5px 0 10px;
@@ -520,8 +519,7 @@ footer {
     width: 95%;
 
     div{
-      width: 46%;
-      margin: 56px 0;
+      width: 90%;
 
       h3 {
         margin: 5px 0 10px;
