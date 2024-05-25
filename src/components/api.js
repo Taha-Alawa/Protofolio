@@ -55,6 +55,7 @@ import story from "../assets/projects/story.png"
 import Vanliife from "../assets/projects/Vanliife.png"
 import videowebsite from "../assets/projects/videowebsite.png"
 import weatherApp from "../assets/projects/weatherApp.png"
+import estate from "../assets/projects/estate.png"
 
 const technologies = [
   {
@@ -202,6 +203,11 @@ const projects = [
     link: "https://github.com/Taha-Alawa/Resposive-design.git"
   },
   {
+    name: "Estatein app",
+    icon: estate,
+    link: "https://estatein-1bcb0.web.app/",
+  },
+  {
     name: "restaurnat app",
     icon: restaurnat,
     link: "https://restaurant-33241.web.app/",
@@ -246,9 +252,9 @@ const specialProjects = [
     link: "https://kitchensberlin1.web.app/",
   },
   {
-    name: "Notes app",
-    icon: Notes,
-    link: "https://github.com/Taha-Alawa/Notes.git",
+    name: "Estatein app",
+    icon: estate,
+    link: "https://estatein-1bcb0.web.app/",
   },
   {
     name: "restaurnat app",
