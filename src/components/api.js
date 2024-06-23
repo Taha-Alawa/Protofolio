@@ -21,6 +21,7 @@ import css from "../assets/images/css.png"
 import javascript from "../assets/images/javascript.png"
 import typescript from "../assets/images/typescript.png"
 import reactjs from "../assets/images/reactjs.png"
+import nextjs from "../assets/images/next.png"
 import redux from "../assets/images/redux.png"
 import tailwind from "../assets/images/tailwind.png"
 import nodejs from "../assets/images/nodejs.png"
@@ -56,6 +57,8 @@ import Vanliife from "../assets/projects/Vanliife.png"
 import videowebsite from "../assets/projects/videowebsite.png"
 import weatherApp from "../assets/projects/weatherApp.png"
 import estate from "../assets/projects/estate.png"
+import promptopia from "../assets/projects/Promptopia.png"
+import pizza from "../assets/projects/Pizza.png"
 
 const technologies = [
   {
@@ -79,6 +82,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs
+  },
+  {
     name: "Firebase",
     icon: firebase
   },
@@ -86,10 +93,10 @@ const technologies = [
   //   name: "Redux",
   //   icon: redux,
   // },
-  {
-    name: "BootStrap",
-    icon: bootstrap,
-  },
+  // {
+  //   name: "BootStrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -130,9 +137,9 @@ const technologies = [
 
 const projects = [
   {
-    name: "Calculator React.js App",
-    icon: calculator,
-    link: "https://github.com/Taha-Alawa/calculator.git"
+    name: "Weather App",
+    icon: weatherApp,
+    link: "https://github.com/Taha-Alawa/weather-app.git"
   },
   {
     name: "fitness App",
@@ -141,9 +148,20 @@ const projects = [
     special: "yes"
   },
   {
-    name: "Javascript Project",
-    icon: javascriptproject,
-    link: "https://github.com/Taha-Alawa/learning-js.git"
+    name: "Promptopia",
+    icon: promptopia,
+    link: "https://github.com/Taha-Alawa/promptopiaai.git"
+  },
+  {
+    name: "Estatein app",
+    icon: estate,
+    link: "https://estatein-1bcb0.web.app/",
+  },
+  {
+    name: "restaurnat app",
+    icon: restaurnat,
+    link: "https://restaurant-33241.web.app/",
+    special: "yes"
   },
   {
     name: "kitchens Store",
@@ -152,30 +170,15 @@ const projects = [
     special: "yes"
   },
   {
-    name: "login Form",
-    icon: loginForm,
-    link: "https://github.com/Taha-Alawa/login-form.git"
-  },
-  {
-    name: "meme Generator",
-    icon: memeGenerator,
-    link: "https://github.com/Taha-Alawa/meme-Genrator.git"
-  },
-  {
-    name: "moon images app",
-    icon: moon,
-    link: "https://github.com/Taha-Alawa/Moon.git"
-  },
-  {
-    name: "music App",
-    icon: musicApp,
-    link: "https://github.com/Taha-Alawa/music-project.git"
-  },
-  {
     name: "Notes app",
     icon: Notes,
     link: "https://github.com/Taha-Alawa/Notes.git",
     special: "yes"
+  },
+  {
+    name: "Pizza demo app",
+    icon: pizza,
+    link: "https://pizza-eight-theta.vercel.app/"
   },
   {
     name: "Telephone Number Validator", 
@@ -203,17 +206,6 @@ const projects = [
     link: "https://github.com/Taha-Alawa/Resposive-design.git"
   },
   {
-    name: "Estatein app",
-    icon: estate,
-    link: "https://estatein-1bcb0.web.app/",
-  },
-  {
-    name: "restaurnat app",
-    icon: restaurnat,
-    link: "https://restaurant-33241.web.app/",
-    special: "yes"
-  },
-  {
     name: "Shoes store",
     icon: shoesStore,
     link: "https://github.com/Taha-Alawa/shoes-store.git"
@@ -234,9 +226,34 @@ const projects = [
     link: "https://github.com/Taha-Alawa/website-with-video.git"
   },
   {
-    name: "Weather App",
-    icon: weatherApp,
-    link: "https://github.com/Taha-Alawa/weather-app.git"
+    name: "Calculator React.js App",
+    icon: calculator,
+    link: "https://github.com/Taha-Alawa/calculator.git"
+  },
+  {
+    name: "Javascript Project",
+    icon: javascriptproject,
+    link: "https://github.com/Taha-Alawa/learning-js.git"
+  },
+  {
+    name: "login Form",
+    icon: loginForm,
+    link: "https://github.com/Taha-Alawa/login-form.git"
+  },
+  {
+    name: "meme Generator",
+    icon: memeGenerator,
+    link: "https://github.com/Taha-Alawa/meme-Genrator.git"
+  },
+  {
+    name: "moon images app",
+    icon: moon,
+    link: "https://github.com/Taha-Alawa/Moon.git"
+  },
+  {
+    name: "music App",
+    icon: musicApp,
+    link: "https://github.com/Taha-Alawa/music-project.git"
   },
 ]
 
