@@ -59,6 +59,7 @@ import weatherApp from "../assets/projects/weatherApp.png"
 import estate from "../assets/projects/estate.png"
 import promptopia from "../assets/projects/Promptopia.png"
 import pizza from "../assets/projects/Pizza.png"
+import Ecommerce from "../assets/projects/Ecommerce.png"
 
 const technologies = [
   {
@@ -137,6 +138,11 @@ const technologies = [
 
 const projects = [
   {
+    name: "E-commerce Payloadcms",
+    icon: Ecommerce,
+    link: ""
+  },
+  {
     name: "Weather App",
     icon: weatherApp,
     link: "https://github.com/Taha-Alawa/weather-app.git"
@@ -180,31 +186,31 @@ const projects = [
     icon: pizza,
     link: "https://pizza-eight-theta.vercel.app/"
   },
-  {
-    name: "Telephone Number Validator", 
-    icon: number,
-    link: "https://github.com/Taha-Alawa/Telephone-Number-Validator.git"
-  },
-  {
-    name: "Number Sorter",
-    icon: numbersorter,
-    link: "https://github.com/Taha-Alawa/Number-Sorter.git"
-  },
-  {
-    name: "Todo React App",
-    icon: reactTODO,
-    link: "https://github.com/Taha-Alawa/to-do-list-in-react.git"
-  },
-  {
-    name: "redux blog",
-    icon: reduxblog,
-    link: "https://github.com/Taha-Alawa/advanced-redux-blog-project.git"
-  },
-  {
-    name: "responsive App",
-    icon: responsiveApp,
-    link: "https://github.com/Taha-Alawa/Resposive-design.git"
-  },
+  // {
+  //   name: "Telephone Number Validator", 
+  //   icon: number,
+  //   link: "https://github.com/Taha-Alawa/Telephone-Number-Validator.git"
+  // },
+  // {
+  //   name: "Number Sorter",
+  //   icon: numbersorter,
+  //   link: "https://github.com/Taha-Alawa/Number-Sorter.git"
+  // },
+  // {
+  //   name: "Todo React App",
+  //   icon: reactTODO,
+  //   link: "https://github.com/Taha-Alawa/to-do-list-in-react.git"
+  // },
+  // {
+  //   name: "redux blog",
+  //   icon: reduxblog,
+  //   link: "https://github.com/Taha-Alawa/advanced-redux-blog-project.git"
+  // },
+  // {
+  //   name: "responsive App",
+  //   icon: responsiveApp,
+  //   link: "https://github.com/Taha-Alawa/Resposive-design.git"
+  // },
   {
     name: "Shoes store",
     icon: shoesStore,
@@ -230,21 +236,21 @@ const projects = [
     icon: calculator,
     link: "https://github.com/Taha-Alawa/calculator.git"
   },
-  {
-    name: "Javascript Project",
-    icon: javascriptproject,
-    link: "https://github.com/Taha-Alawa/learning-js.git"
-  },
+  // {
+  //   name: "Javascript Project",
+  //   icon: javascriptproject,
+  //   link: "https://github.com/Taha-Alawa/learning-js.git"
+  // },
   {
     name: "login Form",
     icon: loginForm,
     link: "https://github.com/Taha-Alawa/login-form.git"
   },
-  {
-    name: "meme Generator",
-    icon: memeGenerator,
-    link: "https://github.com/Taha-Alawa/meme-Genrator.git"
-  },
+  // {
+  //   name: "meme Generator",
+  //   icon: memeGenerator,
+  //   link: "https://github.com/Taha-Alawa/meme-Genrator.git"
+  // },
   {
     name: "moon images app",
     icon: moon,
